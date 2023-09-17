@@ -11,9 +11,9 @@
         <div class="content" id="content">
             <!-- Start Navbar  -->
             <nav class="navbar navbar-expand-lg navbar-fixed-top">
-                <a class="navbar-brand " href="index.php">Train2WorkInIT</a>
+                <a class="navbar-brand " href="index.php"><img src='assets/images/nav-logo.png' alt='Logo' ></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <div class="mo-icon"><i class="bi bi-list"></i></div>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
@@ -39,7 +39,7 @@
                         <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                     </li>      
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><div class="btn btn-danger">Apply Now</div></a>
+                        <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
                     </li>
                     </ul>
                 </div>
@@ -49,20 +49,28 @@
             <div class="carousel">                
                 <div class="banner"> 
                     <marquee
-                    behavior='scroll'
+                        behavior='scroll'
                         scrollamount='10'
                         width='100%'
                         direction='left'
                         height='50px'
-                    >Hello</marquee>                
+                        width='60%'
+                    >
+                        Train2WorkinIT Academy! Applications are now open! Work smart and not hard! The IT 
+                        training academy for everyone! Get the training you need to land your dream job in 
+                        IT! Train from Zero to Hero!
+                    </marquee>                
                     <h1>Train to Work in IT Academy</h1>
+                    <button>Register Now</button> 
                 </div>
+                <!-- <div>Register Now</button> -->
             </div> 
             <div class="others">
                 hello
-            </div>                   
+            </div>      
+            <?php include 'includes/footer/Footer.php'; ?>             
         </div>
             
-        <?php include 'includes/footer/Footer.php'; ?>
+        
     </body>
 </html>  

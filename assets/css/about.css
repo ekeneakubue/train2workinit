@@ -1,0 +1,212 @@
+.about_div_1 > h2{
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+    padding: 3rem 0;
+}
+.about_div_1 > article{
+    font-family: 'Prompt', sans-serif;
+    font-size: 15px;
+    line-height: 2rem;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+span{
+    color: red;
+}
+
+.about_div_1 > h4{
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+}
+.about_img_div > img{
+    padding: 40px;
+    width: 40rem;
+}
+
+.icon_div{
+    display: flex;
+    font-size: 25px;                
+}
+.icon_div .icon_A{                
+    padding: 0 1rem;
+}
+.icon_div .icon_B{
+    padding: 0 1rem;
+}
+
+.icon_div .icon_C{  
+    color: green;              
+    padding: 0 1rem;
+}
+.icon_div .icon_D{                
+    padding: 0 1rem;
+}
+
+ul{
+    text-align: start;                
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+li > i {
+    color: red;
+}
+
+@media screen and (max-width: 913px){
+        .about_div_1 > article{
+        font-family: 'Prompt', sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+    .about_img_div > img{
+        padding: 40px;
+        width: 28rem;
+    }
+    .icon_div{
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;                
+    }
+
+    .about_div_1 > h2{
+        font-weight: bold;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+    .about_div_1 > h4{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 820px){
+        .about_div_1 > article{
+        font-family: 'Prompt', sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+    .about_img_div > img{
+        padding: 40px;
+        width: 26rem;
+    }
+    .icon_div{
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;                
+    }
+
+    .about_div_1 > h2{
+        font-weight: bold;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+    .about_div_1 > h4{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+        .about_div_1 > article{
+        font-family: 'Prompt', sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+    .about_img_div > img{
+        padding: 40px;
+        width: 24rem;
+    }
+    .icon_div{
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;                
+    }
+
+    .about_div_1 > h2{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+    .about_div_1 > h4{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 393px){
+        .about_div_1 > article{
+            font-family: 'Prompt', sans-serif;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: justify;
+            padding-bottom: 30px;
+        }
+        .about_img_div > img{
+            padding: 30px;
+            width: 22rem;
+        }
+        .icon_div{
+            display: flex;
+            justify-content: space-around;
+            font-size: 25px;                
+        }
+        .about_div_1 > h2{
+            font-weight: bold;
+            font-family: 'Questrial', sans-serif;
+            padding-top: 30px;
+        }
+        .about_div_1 > h4{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 280px){
+        .about_div_1 > article{
+            font-family: 'Prompt', sans-serif;
+            font-size: 12px;
+            line-height: 28px;
+            text-align: justify;
+            padding-bottom: 20px;
+        }
+        .about_img_div > img{
+            padding: 18px;
+            width: 16rem;
+        }
+        .icon_div{
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;                
+        }
+        .about_div_1 > h2{
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Questrial', sans-serif;
+            padding-top: 3rem;
+        }
+        .about_div_1 > h4{
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Questrial', sans-serif;
+        padding-top: 40px;
+    }
+    .about_content_div > h2{
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Questrial', sans-serif;
+    }
+}
+

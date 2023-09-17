@@ -52,60 +52,61 @@
         <div class="content" id="content">
             <!-- Start Navbar -->
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.php">Train2WorkInIT</a>
+                <a class="navbar-brand" href="index.php"><img src='assets/images/nav-logo.png' alt='Logo' ></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="index.php" class="nav-link" href="#">Home<hr class="navhr"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.php" class="nav-link" href="#">About Us<hr class="navhr"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="courses.php" class="nav-link" href="#">Courses<hr class="navhr"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="instructors.php" class="nav-link">Our Instructors<hr class="navhr"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contacts.php" class="nav-link">Contact Us<hr class="activated"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
-                    </li>      
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"><div class="btn btn-danger">Apply Now</div></a>
-                    </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link" href="#">Home<hr class="navhr"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.php" class="nav-link" href="#">About Us<hr class="navhr"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="courses.php" class="nav-link" href="#">Courses<hr class="navhr"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="instructors.php" class="nav-link">Our Instructors<hr class="navhr"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacts.php" class="nav-link">Contact Us<hr class="activated"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
+                        </li>      
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
+                        </li>
                     </ul>
                 </div>
             </nav>
             <!-- End Navbar -->
             
-            <div class="container-fluid ">                       
-                <img  class="img" src="assets/images/ct.png" alt="...">
-                <div class="row mt-5">
-                    <div class="col-md-6 cont ">                    
-                        <h2>Contact Info</h2>
-                        <div class="container">
-                            <ul class="no-numbers">
-                                <li><i class="fa-regular fa-envelope" style="color:#ce4233;"></i> train2workinit@anadco.com</li>
-                                <li><i class="fa-solid fa-location-crosshairs" style="color: #ce4233;"></i> 10 Marsden StreetL6 1EP</li>
-                                <li><i class="fa-solid fa-phone" style="color: #ce4233;"></i> 447830890406</li>
-                            </ul>
-                        </div>                    
-                    </div>    
-                    <div class="col-md-6 cont ">                    
-                        <h2 class="getintouch">Get in Touch</h2>
-                        <button class="btn btn-danger">Contact Us</button>
-                    </div>      
-                </div>                   
-            </div>    
-        </div>
+            <main>
+                <div class="container-fluid ">                       
+                    <img  class="img" src="assets/images/ct.png" alt="...">
+                    <div class="row mt-5">
+                        <div class="col-md-6 cont ">                    
+                            <h2>Contact Info</h2>
+                            <div class="container">
+                                <ul class="no-numbers">
+                                    <li><i class="fa-regular fa-envelope" style="color:#ce4233;"></i> train2workinit@anadco.com</li>
+                                    <li><i class="fa-solid fa-location-crosshairs" style="color: #ce4233;"></i> 10 Marsden StreetL6 1EP</li>
+                                    <li><i class="fa-solid fa-phone" style="color: #ce4233;"></i> 447830890406</li>
+                                </ul>
+                            </div>                    
+                        </div>    
+                        <div class="col-md-6 cont ">                    
+                            <h2 class="getintouch">Get in Touch</h2>
+                            <button class="btn btn-danger">Contact Us</button>
+                        </div>      
+                    </div>                   
+                </div> 
+            </main>   
+            <?php include 'includes/footer/Footer.php'; ?>
+        </div>  
         
-    
-        <?php include 'includes/footer/Footer.php'; ?>
     </body>
 </html>  

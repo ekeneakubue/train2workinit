@@ -11,7 +11,7 @@
         <div class="content" id="content">
             <!-- Start Navbar -->
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.php">Train2WorkInIT</a>
+                <a class="navbar-brand" href="index.php"><img src='assets/images/nav-logo.png' alt='Logo' ></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,7 +36,7 @@
                         <a href="testimonial.php" class="nav-link">Testimonials<hr class="activated"></a>
                     </li>      
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><div class="btn btn-danger">Apply Now</div></a>
+                        <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
                     </li>
                     </ul>
                 </div>
@@ -45,9 +45,8 @@
             <main>
                 dfdfdfdcd
             </main>  
-                            
-        </div>
-            
-        <?php include 'includes/footer/Footer.php'; ?>
+            <?php include 'includes/footer/Footer.php'; ?>            
+        </div>           
+        
     </body>
 </html>  
