@@ -9,12 +9,58 @@
         <?php include 'includes/loader/Loader.php'; ?>
         
         <div class="content" id="content">
-            <?php include 'includes/navbar/Navbar2.php'; ?>  
-            <div class="carousel">
-                <div class="banner">
-                    <h1>Welcome to Tech</h1>
+            <!-- Start Navbar  -->
+            <nav class="navbar navbar-expand-lg navbar-fixed-top">
+                <a class="navbar-brand " href="index.php">Train2WorkInIT</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.php" class="nav-link" href="#">
+                            Home
+                            <hr class="activated">
+                        </a>            
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.php" class="nav-link" href="#">About Us<hr class="navhr"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="courses.php" class="nav-link" href="#">Courses<hr class="navhr"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="instructors.php" class="nav-link">Our Instructors<hr class="navhr"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.php" class="nav-link">Contact Us<hr class="navhr"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
+                    </li>      
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><div class="btn btn-danger">Apply Now</div></a>
+                    </li>
+                    </ul>
                 </div>
-            </div>                    
+            </nav>
+            <!-- End Navbar -->
+
+            <div class="carousel">                
+                <div class="banner"> 
+                    <marquee
+                    behavior='scroll'
+                        scrollamount='10'
+                        width='100%'
+                        direction='left'
+                        height='50px'
+                    >Hello</marquee>                
+                    <h1>Train to Work in IT Academy</h1>
+                </div>
+            </div> 
+            <div class="others">
+                hello
+            </div>                   
         </div>
             
         <?php include 'includes/footer/Footer.php'; ?>
