@@ -182,4 +182,33 @@ body {
     background-color: black;
     color: rgb(226, 223, 223);
 }
+.foot-feat{
+    padding: 1rem 1rem;
+    text-align: left;
+}
+.foot-feat p{
+    margin-top: 1rem;
+}
+.myfooter2{
+    background-color: rgb(63, 61, 61);    
+    padding: 1rem 0rem;
+    color: rgb(217, 214, 214);
+}
+.others{
+    margin: 4rem 0rem;
+}
+.abt-left{
+    padding: 2rem 1rem;
+    text-align: left;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.abt-right{
+    display: flex;
+    margin: auto auto;
+    justify-content: center;    
+}
+.abt-right img{    
+    width: 500px;
+}
 /* End Homepage Styles */

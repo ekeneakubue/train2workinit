@@ -77,7 +77,7 @@
                             <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                         </li>      
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="btn btn-danger">Register Now</div></a>
                         </li>
                     </ul>
                 </div>

@@ -2,11 +2,12 @@
 <html lang="en">
     <head>
         <?php include 'includes/header/Header.php'; ?>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Train2WorkInIt</title>
         <link rel="stylesheet" href="assets/css/about.css">
     </head>
     <body>   
-        <?php include 'includes/loader/Loader.php'; ?>
+        <?php include 'includes/loader/Loader.php'; ?>  
         
         <div class="content" id="content">
             <!-- Start Navbar -->
@@ -36,7 +37,7 @@
                         <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                     </li>      
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="btn btn-danger">Register Now</div></a>
                     </li>
                     </ul>
                 </div>
@@ -49,8 +50,8 @@
                         <div class="col-md-6 about_div_1">
                             <h2>Welcome to <span>Train2WorkInIT</span> Academy.</h2>
 
-                            <article><span>Train2WorkInIT</span> Academy offers technical training delivered by Meta-certified, Microsoft-certified and seasoned instructors. Our training programs cater to individuals, whether they are newcomers to the field or advanced practitioners in Cyber Security,Data Analytics, Web Development and Microsoft office. We emphasize practical, hands-on experience to complement your academic foundation, ensuring you benefit from a well-rounded education.</article>
-
+                            <article>At <span>Train2WorkInIT</span> Train2WorkinIT Academy, our unwavering commitment lies in helping individuals make the leap from low-paying jobs to rewarding careers in the dynamic realm of IT. Drawing upon over a decade of excellence in providing cutting-edge IT training, we empower individuals with the essential knowledge and skills needed to kickstart their journey in IT and secure lucrative, high-paying IT jobs.</article>
+                            <article>Our team of expert instructors brings extensive industry experience and certifications, ensuring that you receive up-to-date and practical insights. We are committed to providing a supportive and engaging learning environment where you can develop the skills necessary to succeed in your IT journey.</article>
                             <h4>Our featured Training includes</h4>
                             <ul>
                                 <li><i class="bi bi-caret-right-square-fill"></i>  Cyber Security</li>

@@ -2,19 +2,16 @@
 <html lang="en">
     <head>
         <?php include 'includes/header/Header.php'; ?>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Our Courses</title>
 
         <style>
             
-            .container{
-padding: 3rem;
-}
 .container > h2 {
 font-size: 40px;
 text-align: start;
 font-weight: bold;
-/* color: #164176; */
+color: #164176;
 font-family: 'Titillium Web', sans-serif;
 }
 
@@ -350,13 +347,13 @@ flex-direction: column;
 font-size: 1em;
 font-weight:bold;
 }
-}
+} */
             
         </style>
     </head>
     <body>   
         <?php include 'includes/loader/Loader.php'; ?>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <div class="content" id="content">
             <!-- Start Navbar -->
             <nav class="navbar navbar-expand-lg">
@@ -385,7 +382,7 @@ font-weight:bold;
                         <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                     </li>      
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="btn btn-danger">Register Now</div></a>
                     </li>
                     </ul>
                 </div>
@@ -397,10 +394,10 @@ font-weight:bold;
                     <h2>Our courses</h2>
                     <h3>Information/Cyber Security and Penetration Testing</h3>
                     <div class="pl_row">
-                    <div class="ml_div">
-                    <img src="https://images.pexels.com/photos/4709286/pexels-photo-4709286.jpeg?auto=compress&cs=tinysrgb&w=400"
-                    class="card-img-top" alt="course 1 image">
-                    <div class="card_content card-body">
+                        <div class="ml_div">
+                            <img src="https://images.pexels.com/photos/4709286/pexels-photo-4709286.jpeg?auto=compress&cs=tinysrgb&w=400"
+                            class="card-img-top" alt="course 1 image">
+                        <div class="card_content card-body">
                     <h2 class="card-title">Cyber Resilience Training</h2>
                     <p class="card-text">Some quick example text to build on the card
                     title and make up the bulk of the card's content.</p>
@@ -517,9 +514,6 @@ font-weight:bold;
                 </div>
             </main>
             <?php include 'includes/footer/Footer.php'; ?> 
-        </div>
-        
-    
-               
+        </div>             
     </body>
 </html>  

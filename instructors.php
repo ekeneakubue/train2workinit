@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <?php include 'includes/header/Header.php'; ?>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Train2WorkInIt</title>
         <style>
           .cont{
@@ -55,7 +56,7 @@
                         <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                     </li>      
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="btn btn-danger">Register Now</div></a>
                     </li>
                     </ul>
                 </div>
@@ -75,11 +76,9 @@
                                     <div class="card-body">
                                         <h4 class="card-title text-danger">OUR TEAM</h4>
                                         <p class="card-text">
-                                            Our tech team is a highly skilled and dedicated group of professionals who play a 
-                                            crucial role in the success of our organization. They are responsible for developing, 
-                                            implementing, and maintaining the technological infrastructure that supports our 
-                                            operations. In this write-up, we will delve into the various aspects of our tech 
-                                            team, including their roles, skills, and contributions.
+                                            Our instructors are experienced professionals who have worked in the IT industry for 
+                                            many years. They are passionate about teaching IT, and they are committed to helping 
+                                            their students succeed.
                                         </p>                                      
                                     </div>                                  
                                 </div>

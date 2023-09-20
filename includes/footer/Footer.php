@@ -1,25 +1,50 @@
 <div class="myfooter">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row text-left">
-            <div class="col-md-6 ">
+            <div class="col-md-3 ">
                 <div class="foot-feat">
                     <img src='assets/images/nav-logo.png' alt='Logo' class="footer-img">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi odio dolores eveniet. 
-                        Ad officia magni corporis obcaecati, consequatur cumque omnis, qui non eligendi iure 
-                        quam corrupti ducimus, rem a facere earum? Dolore rerum expedita mollitia aperiam 
-                        facere deserunt. Sint quam cupiditate eius, voluptatem quae omnis in nobis placeat 
-                        molestias possimus voluptatum, suscipit praesentium nihil! Voluptatum fugiat natus 
-                        voluptatibus animi voluptates.
+                        The IT training academy for everyone.
                     </p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <h2>Useful Links</h2>
-                <div>Privacy Policy</div>
-                <div>Terms and Conditions</div>
+            <div class="col-md-2">                
+                <div class="foot-feat">
+                    <h4>Site Map</h4>
+                    <div>About</div>
+                    <div>Courses</div>
+                    <div>Instructors</div>
+                    <div>Contact Us</div>
+                    <div>Testimonials</div>
+                </div>
             </div>
-            <div class="col-md-3">Contact Us</div>
+            <div class="col-md-4">                
+                <div class="foot-feat">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li>Information/Cyber Security and Penetration Testing FastTrack Course</li>
+                        <li>Programming Languages for Adults, Children, and families</li>
+                        <li>Microsoft Office Applications for everyone</li>
+                    </ul>                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="foot-feat">
+                    <h4>Get in touch with us</h4>                    
+                    <div><i class="fa-solid fa-location-crosshairs" style="color: #ce4233;"></i> 10 Marsden Street L6 1EP</div>
+                    <div><i class="fa-regular fa-envelope" style="color:#ce4233;"></i> train2workinit@anadco.com</div>
+                    <div><i class="fa-solid fa-phone" style="color: #ce4233;"></i> +447830890406</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="myfooter2">
+    <div class="container">
+        <div class="row justify-content-center">
+            &copy; Copyright 2023 All Rights Reserved by <span class='text-danger'>&nbsp; Train2WorkinIT &nbsp;</span> Academy
         </div>
     </div>
 </div>

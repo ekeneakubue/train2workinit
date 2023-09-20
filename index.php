@@ -7,7 +7,7 @@
     </head>
     <body>   
         <?php include 'includes/loader/Loader.php'; ?>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <div class="content" id="content">
             <!-- Start Navbar  -->
             <nav class="navbar navbar-expand-lg navbar-fixed-top">
@@ -39,7 +39,7 @@
                         <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                     </li>      
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><div class="btn btn-danger">Register Now</div></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="btn btn-danger">Register Now</div></a>
                     </li>
                     </ul>
                 </div>
@@ -66,7 +66,23 @@
                 <!-- <div>Register Now</button> -->
             </div> 
             <div class="others">
-                hello
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="abt-left">
+                                <h2>Who we are?</h2>
+                                <p>
+                                    Train2WorkinIT Academy, your gateway to top-notch IT training! As a premier destination for hands-on IT courses, we specialize in in-demand fields of the industry. Our dedicated team of seasoned instructors is driven by a deep passion for IT education, and we're steadfast in our mission to equip our students with the expertise and capabilities required to thrive in high-paying IT roles in the modern digital era.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="abt-right">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwx1a1eN7lSzL8nAOHX0VBhTaEK0UPChgQtQ&usqp=CAU" alt="abt-right-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>      
             <?php include 'includes/footer/Footer.php'; ?>             
         </div>

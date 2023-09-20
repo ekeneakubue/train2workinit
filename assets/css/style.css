@@ -121,5 +121,27 @@ main{
 .foot-feat p{
     margin-top: 1rem;
 }
+.myfooter2{
+    background-color: rgb(63, 61, 61);    
+    padding: 1rem 0rem;
+    color: rgb(217, 214, 214);
+}
 /* End Homepage Styles */
+
+/* Testimonial Style */
+.testimonial{
+    margin: 4rem 0rem;
+}
+.testimonial h5{
+    margin: 2rem 0rem;
+}
+.testify{
+    margin-bottom: 1.5rem;
+    padding: 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.testify i{
+    font-size: 30px;
+}
+/* End Testimonial Styles */
 
