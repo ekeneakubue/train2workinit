@@ -1,0 +1,119 @@
+:root{
+    --g-font: rgb(36, 36, 235);
+}
+/* .img{
+    height:350px ;
+    width: 60rem;
+    background-size:cover;
+    margin-top:3rem;
+    
+} */
+/* @media (max-width: 767px) {
+    .img {
+        width: 20rem; 
+        max-width: none; 
+    }
+} */
+
+
+.red-button {
+    background-color: red;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+
+
+.getintouch{
+    padding-bottom: 1rem; 
+}
+
+.no-numbers {
+    list-style-type: none;
+    justify-content: start;
+}
+.reg_btn{
+    background-color: var(--g-font);
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 1s;
+    transition: ease-out 1s;
+}
+.reg_btn:hover{
+    color: var(--g-font);
+    background-color: white;
+    border: 1px solid var(--g-font);
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#contact_banner{                
+    height: 33em;
+    width: 100%;
+    color: white;
+    background-image: url("../images/telephoneimg.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    opacity: 2;
+}
+#contact_banner  h1{
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: 12rem;
+}
+#contact_banner p{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    color: #E9E3E3;
+    padding-top: 4em;
+}
+#contact_banner > h1::after {
+    content: '';
+    background: var(--g-font);
+    display: flex;
+    flex-direction: row;
+    width: 6em;
+    height: 4px;
+    margin-left: 7.2em;
+    z-index: 900;
+    
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont > h2{
+    font-weight: bold;
+    font-size: 2em;
+    color: var(--g-font)
+}
+.cont > h2::after {
+    content: "";
+
+}
+
+#contact_details{
+    height: 70vh;
+}
+#contact_lower{
+    color: white;
+    background-color: black;
+    height: 50vh;
+    padding: 6em 8rem;
+}
+#contact_lower > h1{
+    font-weight: bold;
+}
+#contact_lower > p{
+    font-family: 'Exo', sans-serif;
+    font-size: 2em;
+}

@@ -2,47 +2,19 @@
 <html lang="en">
     <head>
         <?php include 'includes/header/Header.php'; ?>
+        <link rel="stylesheet" href="assets/css/contact.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&display=swap" rel="stylesheet">
         <title>Train2WorkInIt</title>
         <style>
-            .contacts{
-                
-                }
-            .cont{
-                margin-top:1rem;
-            }
-            .img{
-                height:350px ;
-                width: 60rem;
-                background-size:cover;
-                margin-top:3rem;
-                
-            }
-            @media (max-width: 767px) {
-                .img {
-                    width: 20rem; 
-                    max-width: none; 
-                }
-            }
-
-        
-            .red-button {
-                background-color: red;
-                color: white; 
-                padding: 10px 20px; 
-                border: none; 
-                border-radius: 5px; 
-                cursor: pointer; 
-            }
-
-        
-
-            .getintouch{
-                padding-bottom: 1rem; 
-            }
-
-            .no-numbers {
-                list-style-type: none; /* Remove numbers from the ordered list */
+            .navbar{
+                opacity: 0.8;
             }
         </style>
     </head>
@@ -77,34 +49,46 @@
                             <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                         </li>      
                         <li class="nav-item">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="btn btn-danger">Register Now</div></a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="reg_btn">Register Now</div></a>
                         </li>
                     </ul>
                 </div>
             </nav>
             <!-- End Navbar -->
             
-            <main>
-                <div class="container-fluid ">                       
-                    <img  class="img" src="assets/images/ct.png" alt="...">
-                    <div class="row mt-5">
-                        <div class="col-md-6 cont ">                    
-                            <h2>Contact Info</h2>
-                            <div class="container">
-                                <ul class="no-numbers">
-                                    <li><i class="fa-regular fa-envelope" style="color:#ce4233;"></i> train2workinit@anadco.com</li>
-                                    <li><i class="fa-solid fa-location-crosshairs" style="color: #ce4233;"></i> 10 Marsden StreetL6 1EP</li>
-                                    <li><i class="fa-solid fa-phone" style="color: #ce4233;"></i> 447830890406</li>
-                                </ul>
-                            </div>                    
-                        </div>    
-                        <div class="col-md-6 cont ">                    
-                            <h2 class="getintouch">Get in Touch</h2>
-                            <button class="btn btn-danger">Contact Us</button>
-                        </div>      
-                    </div>                   
-                </div> 
-            </main>   
+            <section>
+                <div id="contact_banner">
+                    <h1>CONTACT US</h1>
+                    <p>Send us a message or call our team today.</p>
+                </div>
+
+                <div id="contact_details" class="row">
+                    <div class="col-md-6 cont">                    
+                        <h2><span>Train2WorkinIT</span></h2>
+
+                        <div class="contact_items">
+                            <ul class="no-numbers">
+                                <li><i class="fa-solid fa-location-crosshairs" style="color: var(--g-font);"></i> 10 Marsden Street, L5 1EP. Liverpool, UK</li>
+                                <li><i class="fa-solid fa-phone" style="color: var(--g-font);"></i> +44(0)7383382111 ||  <i class="fa-regular fa-envelope" style="color: var(--g-font);"></i> contact@train2workinit.com </li>
+                            </ul>
+                        </div>                    
+                    </div>  
+
+                    <div class="col-md-6 bg-light contact_details">                       
+                                                             
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div id="contact_lower" class="col-md-12">
+                        <h1>We're hiring!</h1>
+                        <p>We're hiring highly skilled professionals in a variety of fields 
+                            who are passionate about teaching and helping others transition 
+                            to high-paying jobs in the digital Age.</p>
+                    </div>
+                   
+                </div>
+            </section>  
             <?php include 'includes/footer/Footer.php'; ?>
         </div>  
         

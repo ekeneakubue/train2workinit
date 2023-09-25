@@ -1,3 +1,14 @@
+<style>
+    :root{
+        --g-font: rgb(36, 36, 235);
+    }
+    .footer_text{
+        color: var(--g-font);
+    }
+    .myfooter2{
+        background-color: black;
+    }
+</style>
 <div class="myfooter">
     <div class="container-fluid">
         <div class="row text-left">
@@ -32,9 +43,9 @@
             <div class="col-md-3">
                 <div class="foot-feat">
                     <h4>Get in touch with us</h4>                    
-                    <div><i class="fa-solid fa-location-crosshairs" style="color: #ce4233;"></i> 10 Marsden Street L6 1EP</div>
-                    <div><i class="fa-regular fa-envelope" style="color:#ce4233;"></i> train2workinit@anadco.com</div>
-                    <div><i class="fa-solid fa-phone" style="color: #ce4233;"></i> +447830890406</div>
+                    <div><i class="fa-solid fa-location-crosshairs" style="color: var(--g-font);"></i> 10 Marsden Street L6 1EP</div>
+                    <div><i class="fa-regular fa-envelope" style="color: var(--g-font);"></i> train2workinit@anadco.com</div>
+                    <div><i class="fa-solid fa-phone" style="color: var(--g-font);"></i> +447830890406</div>
                 </div>
             </div>
 
@@ -44,7 +55,7 @@
 <div class="myfooter2">
     <div class="container">
         <div class="row justify-content-center">
-            &copy; Copyright 2023 All Rights Reserved by <span class='text-danger'>&nbsp; Train2WorkinIT &nbsp;</span> Academy
+            &copy; Copyright 2023 All Rights Reserved by <span class='footer_text'>&nbsp; Train2WorkinIT &nbsp;</span> Academy
         </div>
     </div>
 </div>

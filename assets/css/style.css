@@ -1,3 +1,7 @@
+:root{
+    --g-font: rgb(36, 36, 235);
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -89,15 +93,32 @@ body {
     padding: 0;
     margin: 0;
     height: 3px;
-    background-color: red;
+    background-color: var(--g-font);
     z-index: 1;
+}
+.reg_btn{
+    background-color: var(--g-font);
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 1s;
+    transition: ease-out 1s;
+}
+.reg_btn:hover{
+    color: var(--g-font);
+    background-color: white;
+    border: 1px solid var(--g-font);
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
 }
 .activated{
     width: 0%;
     padding: 0;
     margin: 0;
     height: 3px;
-    background-color: red;
+    background-color: var(--g-font);
     z-index: 1;
 }
 /* End Navbar Styling */
@@ -121,8 +142,7 @@ main{
 .foot-feat p{
     margin-top: 1rem;
 }
-.myfooter2{
-    background-color: rgb(63, 61, 61);    
+.myfooter2{    
     padding: 1rem 0rem;
     color: rgb(217, 214, 214);
 }
@@ -145,3 +165,6 @@ main{
 }
 /* End Testimonial Styles */
 
+/* Contact styling section */
+
+/* contact styling ends here */

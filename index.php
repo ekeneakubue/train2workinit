@@ -3,7 +3,9 @@
     <head>
         <?php include 'includes/header/Header2.php'; ?>
         <title>Train2WorkInIt</title>
-        
+        <style>
+            
+        </style>
     </head>
     <body>   
         <?php include 'includes/loader/Loader.php'; ?>
@@ -11,7 +13,7 @@
         <div class="content" id="content">
             <!-- Start Navbar  -->
             <nav class="navbar navbar-expand-lg navbar-fixed-top">
-                <a class="navbar-brand " href="index.php"><img src='assets/images/nav-logo.png' alt='Logo' ></a>
+                <a id="logo_img" class="navbar-brand " href="index.php"><img src='assets/images/nav-logo.png' alt='Logo' ></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="mo-icon"><i class="bi bi-list"></i></div>
                 </button>
@@ -39,7 +41,7 @@
                         <a href="testimonial.php" class="nav-link">Testimonials<hr class="navhr"></a>
                     </li>      
                     <li class="nav-item">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="btn btn-danger">Register Now</div></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uRWRmE2ouNnGALVZCQxBfDQAL7C3RM0EIsfywAMRAIwyow/viewform?usp=sf_link" class="nav-link" target="_blank"><div class="reg_btn">Register Now</div></a>
                     </li>
                     </ul>
                 </div>
@@ -60,7 +62,7 @@
                         training academy for everyone! Get the training you need to land your dream job in 
                         IT! Train from Zero to Hero!
                     </marquee>                
-                    <h1>Train to Work in IT Academy</h1>
+                    <h1><span>Train2WorkinIT</span> Academy</h1>
                     <button>Register Now</button> 
                 </div>
                 <!-- <div>Register Now</button> -->

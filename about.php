@@ -48,32 +48,47 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 about_div_1">
-                            <h2>Welcome to <span>Train2WorkInIT</span> Academy.</h2>
+                            <h2>Welcome to <span>Train2WorkinIT</span> Academy.</h2>
 
-                            <article>At <span>Train2WorkInIT</span> Train2WorkinIT Academy, our unwavering commitment lies in helping individuals make the leap from low-paying jobs to rewarding careers in the dynamic realm of IT. Drawing upon over a decade of excellence in providing cutting-edge IT training, we empower individuals with the essential knowledge and skills needed to kickstart their journey in IT and secure lucrative, high-paying IT jobs.</article>
-                            <article>Our team of expert instructors brings extensive industry experience and certifications, ensuring that you receive up-to-date and practical insights. We are committed to providing a supportive and engaging learning environment where you can develop the skills necessary to succeed in your IT journey.</article>
+                            <article>
+                                At <span>Train2WorkinIT</span> Academy, our unwavering commitment is to assist 
+                                individuals in transitioning from low-paying jobs to rewarding 
+                                careers in the dynamic realm of IT. Leveraging over a decade of 
+                                excellence in providing cutting-edge IT training, we empower individuals
+                                 with the essential knowledge and skills necessary to kickstart their IT
+                                  journey and secure lucrative, high-paying IT jobs.
+                                  <br><br>
+                                Our founder, Anthony Nnadi, is the visionary behind <span>Train2WorkinIT</span> Academy.
+                                 He holds a BSc in Computer Science from the University of Nigeria,
+                                  Nsukka and an MSc in Computing from Liverpool Hope University, UK. 
+                                  With numerous certifications such as CCNA, MCSE, Network+, Security+, 
+                                  ITIL, ISQTB, SCSA, CISA, CISM, CISSP, and over 20 years of diverse working 
+                                  experience across industries, including Oil & Gas, Banking, Asset Management,
+                                   Telecom, IT, Research & Development, and the Health Sector, Anthony Nnadi's 
+                                   expertise is the driving force behind our success.
+                                   <br><br>
+                                   Recognizing the dynamic nature of the IT industry, 
+                                    we have assembled a team of expert instructors with 
+                                    deep industry knowledge and certifications. This team ensures 
+                                    that you receive current, practical insights within a supportive 
+                                    and engaging learning environment. Our primary goal is to equip 
+                                    you with the skills necessary to excel in your IT journey.
+                                    <br><br>
+                                    Join us at <span>Train2WorkinIT</span> Academy, and together, let's embark on 
+                                    this transformative IT journey. Your success is our top priority.
+                            </article>
+
+                            
+
                             <h4>Our featured Training includes</h4>
                             <ul>
-                                <li><i class="bi bi-caret-right-square-fill"></i>  Cyber Security</li>
-                                <ul>
-                                    <li>Cyber Resilience Training</li>
-                                    <li>Cyber Security Incident Responder</li>
-                                    <li>Cyber Security GRC Training</li>
-                                </ul>
-                                <li><i class="bi bi-caret-right-square-fill"></i>  Programming Languages for Children and Adults</li>
-                                <ul>
-                                    <li>Python</li>
-                                    <li>HTML5</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Git/Github</li>
-                                </ul>
-                                <li><i class="bi bi-caret-right-square-fill"></i>  Microsoft Office </li>
-                                <ul>
-                                    <li>Microsoft Word</li>
-                                    <li>Excel Cell References</li>
-                                    <li>Powerpoint made easy</li>
-                                </ul>
+                                <li><i class="bi bi-caret-right-square-fill"></i>  Information/Cyber Security and Penetration Testing (12 weeks)</li><hr>
+                                
+                                <li><i class="bi bi-caret-right-square-fill"></i>  Programming Languages for Adults, Children, and families (12 weeks)</li><hr>
+                                
+                                <li><i class="bi bi-caret-right-square-fill"></i>  Microsoft Office (Word, Excel, PowerPoint) Applications for everyone - Beginner, Intermediate and Advanced Course (8 weeks) </li><hr>
+                                <li><i class="bi bi-caret-right-square-fill"></i>  Web Developer Bootcamp (12 weeks) </li><hr>
+                                <li><i class="bi bi-caret-right-square-fill"></i>  Software Testing / Manual & Automation Testing (12 weeks)</li><hr>
                             </ul>
                             
                         </div>
@@ -84,13 +99,13 @@
                             </div>
 
                             <div class="about_content_div">
-                                <h2>Why choose <span>Train2WorkInIT</span> Academy? </h2>
+                                <h2>Why choose <span>Train2WorkinIT</span> Academy? </h2>
                                 <article>
                                     <ul>
                                         <li>We employ a range of inventive learning methods that are certain to captivate the learner entirely.</li><hr>
                                         <li>Attendees collaborate at a time and location that suits them, fostering improved teamwork and motivation.</li><hr>
                                         <li>We provide you with materials that suites your learning demands</li><hr>
-                                        <li>At <span>Train2WorkInIT</span>, we deliver our commitments, we are reliable and consitent.</li><hr>
+                                        <li>At <span>Train2WorkinIT</span>, we deliver our commitments, we are reliable and consitent.</li><hr>
                                     </ul>
                                 </article>
                             </div>
