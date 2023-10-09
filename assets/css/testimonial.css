@@ -1,0 +1,20 @@
+.t-title{
+    margin:  10rem 0 1rem 0;
+}
+.test-head{
+    padding: 0rem 4rem 2rem 4rem;
+}
+.t_icon{
+    color: red;
+    font-size: 35px;
+}
+.card{
+    min-height: 350px;
+}
+
+@media screen and (max-width: 667px) {
+    .test-head{
+        text-align: center;
+        padding: 0rem 1rem 2rem 1rem;
+    }
+}

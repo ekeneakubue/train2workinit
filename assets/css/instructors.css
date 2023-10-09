@@ -1,0 +1,71 @@
+
+#contact_banner{                
+    height: 60em;
+    width: 100%;
+    color: white;
+    background-image: url("../images/instructor.png");
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+    opacity: 2;
+}
+
+#contact_banner  h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 15rem;
+    margin-bottom: 2rem;
+    animation: slideMe .7s ease-in;
+}
+
+
+@keyframes slideMe{
+    0%{
+        transform: rotateY(40deg) translateY(500px);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+}
+
+#contact_banner p{
+    background-color:rgba(42, 40, 39, 0.9);    
+    padding: 2rem 1rem;
+    line-height: 4rem;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    animation: slideMe .7s ease-in;
+    
+}
+
+@keyframes slideMe{
+    0%{
+        transform: rotateY(40deg) translateY(500px);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+}
+
+@media screen and (max-width: 667px) {
+    #contact_banner  h1{
+        font-size: 25px;
+        padding-top: 15rem;
+        animation: slideMe .7s ease-in;
+        margin-bottom: 2px;
+    }
+
+    #contact_banner p{
+        background-color:rgba(42, 40, 39, 0.9);    
+        padding: 2rem 1rem;
+        line-height: 3rem;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: 'Exo 2', sans-serif;
+        animation: slideMe .7s ease-in;
+        margin: 2rem 0px 0px 0px;
+    }
+}
